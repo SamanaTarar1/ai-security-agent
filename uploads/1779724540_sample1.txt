@@ -1,0 +1,74 @@
+2026-05-25 09:00:01 Failed Login admin 192.168.1.10
+2026-05-25 09:00:05 Failed Login admin 192.168.1.10
+2026-05-25 09:00:10 Failed Login admin 192.168.1.10
+2026-05-25 09:00:15 Failed Login admin 192.168.1.10
+2026-05-25 09:00:20 Failed Login admin 192.168.1.10
+2026-05-25 09:00:25 Successful Login admin 192.168.1.10
+
+2026-05-25 09:05:00 Login user john from Pakistan
+2026-05-25 09:05:10 Login user john from Russia
+
+2026-05-25 09:10:00 User alice elevated privileges to admin
+2026-05-25 09:10:05 Privilege Escalation detected for alice
+
+2026-05-25 09:15:00 Failed Login root 10.0.0.5
+2026-05-25 09:15:02 Failed Login root 10.0.0.5
+2026-05-25 09:15:04 Failed Login root 10.0.0.5
+2026-05-25 09:15:06 Failed Login root 10.0.0.5
+2026-05-25 09:15:08 Failed Login root 10.0.0.5
+
+2026-05-25 08:00:12 Successful Login john 192.168.1.20
+2026-05-25 08:02:45 Successful Login sarah 192.168.1.21
+2026-05-25 08:05:10 File Access Report.pdf by john
+2026-05-25 08:08:33 Successful Login mike 192.168.1.22
+
+2026-05-25 08:15:01 Failed Login admin 10.0.0.5
+2026-05-25 08:15:04 Failed Login admin 10.0.0.5
+2026-05-25 08:15:07 Failed Login admin 10.0.0.5
+2026-05-25 08:15:10 Failed Login admin 10.0.0.5
+2026-05-25 08:15:13 Failed Login admin 10.0.0.5
+2026-05-25 08:15:18 Successful Login admin 10.0.0.5
+
+2026-05-25 08:20:50 Successful Login emma 192.168.1.25
+2026-05-25 08:25:10 Password Change emma
+2026-05-25 08:28:44 Successful Login david 192.168.1.30
+
+2026-05-25 09:01:05 Login user john from Pakistan
+2026-05-25 09:01:20 Login user john from Germany
+
+2026-05-25 09:10:15 User alice elevated privileges to admin
+2026-05-25 09:10:18 Privilege Escalation detected for alice
+
+2026-05-25 09:15:10 Failed Login root 172.16.0.15
+2026-05-25 09:15:12 Failed Login root 172.16.0.15
+2026-05-25 09:15:14 Failed Login root 172.16.0.15
+2026-05-25 09:15:16 Failed Login root 172.16.0.15
+2026-05-25 09:15:18 Failed Login root 172.16.0.15
+2026-05-25 09:15:20 Failed Login root 172.16.0.15
+
+2026-05-25 09:25:33 Successful Login support 192.168.1.40
+2026-05-25 09:30:21 Database Backup Completed
+2026-05-25 09:32:10 File Access CustomerData.csv by support
+
+2026-05-25 10:00:01 Failed Login finance 203.0.113.5
+2026-05-25 10:00:03 Failed Login finance 203.0.113.5
+2026-05-25 10:00:05 Failed Login finance 203.0.113.5
+2026-05-25 10:00:07 Failed Login finance 203.0.113.5
+2026-05-25 10:00:10 Successful Login finance 203.0.113.5
+
+2026-05-25 10:15:11 User bob elevated privileges to admin
+2026-05-25 10:15:14 Privilege Escalation detected for bob
+
+2026-05-25 10:20:22 Login user sarah from Pakistan
+2026-05-25 10:20:35 Login user sarah from Russia
+
+2026-05-25 10:35:40 Failed Login administrator 198.51.100.10
+2026-05-25 10:35:42 Failed Login administrator 198.51.100.10
+2026-05-25 10:35:44 Failed Login administrator 198.51.100.10
+2026-05-25 10:35:46 Failed Login administrator 198.51.100.10
+2026-05-25 10:35:48 Failed Login administrator 198.51.100.10
+
+2026-05-25 11:00:05 Successful Login hr 192.168.1.50
+2026-05-25 11:05:11 File Download payroll.xlsx by hr
+2026-05-25 11:10:20 Successful Login manager 192.168.1.60
+2026-05-25 11:15:45 System Health Check Passed

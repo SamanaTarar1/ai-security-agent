@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Threat Dashboard</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+            padding: 20px;
+        }
+
+        .card {
+            display: inline-block;
+            background: #1e293b;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 200px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #334155;
+            padding: 10px;
+        }
+
+        th {
+            background: #1e293b;
+        }
+
+        .critical { color: red; font-weight: bold; }
+        .high { color: orange; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<h1>🛡 AI Security Threat Monitoring Agent</h1>
+
+<!-- STATS -->
+<div class="card">
+    <h3>Total Logs</h3>
+    <h2>{{ total_logs }}</h2>
+</div>
+
+<div class="card">
+    <h3>Threats Found</h3>
+    <h2>{{ total_threats }}</h2>
+</div>
+
+<div class="card">
+    <h3>Critical</h3>
+    <h2 class="critical">{{ critical }}</h2>
+</div>
+
+<div class="card">
+    <h3>High Risk</h3>
+    <h2 class="high">{{ high }}</h2>
+</div>
+
+<!-- THREAT TABLE -->
+<h2>Detected Threats</h2>
+
+<table>
+    <tr>
+        <th>Threat Type</th>
+        <th>Severity</th>
+        <th>Log Evidence</th>
+    </tr>
+
+    {% for t in threats %}
+    <tr>
+        <td>{{ t.type }}</td>
+        <td class="{{ t.severity|lower }}">{{ t.severity }}</td>
+        <td>{{ t.log }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>

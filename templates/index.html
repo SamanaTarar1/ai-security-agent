@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Security Threat Monitoring Agent</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: #111827;
+            padding: 40px;
+            border-radius: 15px;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #9ca3af;
+            margin-bottom: 20px;
+        }
+
+        input[type="file"] {
+            background: #1f2937;
+            padding: 10px;
+            width: 100%;
+            border-radius: 8px;
+            color: white;
+            border: 1px solid #374151;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background: #3b82f6;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #2563eb;
+        }
+
+        .badge {
+            background: #ef4444;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 11px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="badge">🔒 Security AI Agent</div>
+
+    <h1>AI Threat Monitoring System</h1>
+
+    <p>Upload security logs to detect attacks, anomalies & suspicious activity</p>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="logfile" required>
+        <button type="submit">Analyze Security Logs</button>
+    </form>
+
+    <div class="footer">
+        Powered by AI + Rule-based Detection Engine
+    </div>
+
+</div>
+
+</body>
+</html>

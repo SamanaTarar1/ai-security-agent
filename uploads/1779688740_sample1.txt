@@ -1,0 +1,18 @@
+2026-05-25 09:00:01 Failed Login admin 192.168.1.10
+2026-05-25 09:00:05 Failed Login admin 192.168.1.10
+2026-05-25 09:00:10 Failed Login admin 192.168.1.10
+2026-05-25 09:00:15 Failed Login admin 192.168.1.10
+2026-05-25 09:00:20 Failed Login admin 192.168.1.10
+2026-05-25 09:00:25 Successful Login admin 192.168.1.10
+
+2026-05-25 09:05:00 Login user john from Pakistan
+2026-05-25 09:05:10 Login user john from Russia
+
+2026-05-25 09:10:00 User alice elevated privileges to admin
+2026-05-25 09:10:05 Privilege Escalation detected for alice
+
+2026-05-25 09:15:00 Failed Login root 10.0.0.5
+2026-05-25 09:15:02 Failed Login root 10.0.0.5
+2026-05-25 09:15:04 Failed Login root 10.0.0.5
+2026-05-25 09:15:06 Failed Login root 10.0.0.5
+2026-05-25 09:15:08 Failed Login root 10.0.0.5
